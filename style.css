@@ -1,0 +1,65 @@
+.bg {
+  /* The image used */
+  background-image: url("home.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-size: 24px;
+  background: rgba(231, 231, 231, 0.767)
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 50px;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.nav-item {
+  float: left;
+}
+
+html,body{
+  margin:0;
+  height:100%;
+}
+img{
+  display:block;
+  margin-top: 40px;
+}
+
+.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 29px;
+}
+
+.nav-item:first-child{
+  margin-right: 430px;
+  margin-left: 40px;
+}
+
+.nav-item a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgba(0, 81, 255, 0.671);
+}
